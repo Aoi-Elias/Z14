@@ -1,0 +1,31 @@
+{
+    "message": "success",
+    "data": [
+        {
+            "id": 1,
+            "label": "调整大小",
+            "iconType": "zhixingmilkyTea",
+            "title": "知行奶茶，温暖春日，我们的故事就从一杯奶茶开始",
+            "price": "￥ 12.00 CNY",
+            "children": []
+        },
+        {
+            "id": 2,
+            "label": "天猫",
+            "iconType": "ormosiamilkyTea",
+            "title": "红豆冰霜烧仙草",
+            "price": "￥ 20.00 CNY",
+            "children": []
+        },
+        {
+            "id": 3,
+            "label": "天猫",
+            "iconType": "zhixingmilkyTea",
+            "title": "知行奶茶，温暖春日，我们的故事就从一杯奶茶开始",
+            "price": "￥ 20.00 CNY",
+            "children": []
+        }
+        
+    ],
+    "code": 0
+}

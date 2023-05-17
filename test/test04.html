@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>t4</title>
+    <style>
+        .container{
+            width: 500px;
+            margin: 0 auto;
+        }
+        .show {
+            /* position: absolute;
+            top: 40px;
+            left: 0; */
+            /* display: block; */
+            width: 200px;
+            /* height: 200px; */
+            border: 1px solid #000;
+            display: none;
+        }
+
+        .show p {
+            font-size: 14px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="search">
+        <div class="show" id="show">
+            <!-- <p>手机</p> -->
+        </div>
+    </div>
+
+    <script>
+        const search = document.getElementById('search');
+        const show = document.getElementsByClassName('show')[0];
+        const arr = ["华为手机", "apple手机", "手表", "手电筒", "小米手机", "oppo手机", "平板电脑", "三星手机", "手机支架", "手套"];
+        let str = '';
+        console.log(show)
+        search.onkeyup = function () {
+            // 清除原有数据
+            str = '';
+            show.style.display = 'block';
+            const value = search.value.trim();
+            arr.forEach(item => {
+                if (value.length == 0) {
+                    return show.style.display = 'none';
+                }
+
+                const res = item.indexOf(value);
+                if (res != -1) {
+                    str += `<p>${item}</p>`;
+                }
+            })
+            console.log(str)
+            show.innerHTML = str;
+        }
+    </script>
+</body>
+
+</html>

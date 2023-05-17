@@ -1,0 +1,208 @@
+.lighter {
+    /*灰度*/
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+
+    /*亮度*/
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+}
+
+/* 垂直水平居中 */
+.grid-center {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+/* 登录页面图标 */
+.personal-icon {
+    position: absolute;
+    left: 20px;
+    width: 18px;
+    height: 20px;
+    background-image: url('../images/组合\ 2.png');
+    background-position: -57px -217px;
+    background-repeat: no-repeat;
+    transform: scale(1.2);
+}
+
+.password-icon {
+    position: absolute;
+    /* top: 50%; */
+    left: 20px;
+    width: 20px;
+    height: 21px;
+    background-image: url('../images/组合\ 2.png');
+    background-position: -57px -295px;
+    background-repeat: no-repeat;
+}
+
+.qq-icon {
+    position: absolute;
+    top: 25px;
+    left: -100px;
+    width: 30px;
+    height: 34px;
+    background-image: url('../images/组合\ 2.png');
+    background-position: -90px -572px;
+    background-repeat: no-repeat;
+}
+
+.weixin-icon {
+    position: absolute;
+    top: 28px;
+    left: -15px;
+    width: 34px;
+    height: 28px;
+    background-image: url('../images/组合\ 2.png');
+    background-position: -176px -575px;
+    background-repeat: no-repeat;
+}
+
+.weibo-icon {
+    position: absolute;
+    top: 28px;
+    left: 75px;
+    width: 33px;
+    height: 28px;
+    background-image: url('../images/组合\ 2.png');
+    background-position: -264px -575px;
+    background-repeat: no-repeat;
+}
+
+/* tabbar图标 */
+.index-icon-0 {
+    /* 首页 index */
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    left: 12px;
+    width: 27px;
+    height: 24px;
+    background-image: url('../images/首页.png');
+    background-position: -70px -756px;
+    background-repeat: no-repeat;
+}
+
+.index-icon-1 {
+    /* 其他页面 index */
+    width: 27px;
+    height: 25px;
+    background-image: url('../images/组合\ 7.png');
+    background-position: -70px -756px;
+    background-repeat: no-repeat;
+}
+
+.search-icon-0 {
+    /* 搜索页 搜索 */
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    left: 12px;
+    width: 23px;
+    height: 24px;
+    background-image: url('../images/组合\ 7.png');
+    background-position: -134px -760px;
+}
+
+.search-icon-1 {
+    /* 其他页 搜索 */
+    width: 22px;
+    height: 22px;
+    background-image: url('../images/首页.png');
+    background-position: -171px -759px;
+}
+
+.message-icon-0 {
+    /* 消息页 消息 */
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    left: 16px;
+    width: 24px;
+    height: 22px;
+    background-image: url('../images/组合\ 8.png');
+    background-position: -196px -757px;
+}
+
+.message-icon-1 {
+    /* 其他页 消息 */
+    width: 25px;
+    height: 25px;
+    background-image: url('../images/首页.png');
+    background-position: -230px -756px;
+}
+
+.mine-icon-0 {
+    /* 我的页 我的 */
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    left: 12px;
+    width: 17px;
+    height: 25px;
+    background-image: url('../images/首页.png');
+    background-position: -293px -756px;
+}
+
+.mine-icon-1 {
+    /* 其他页 我的 */
+    width: 17px;
+    height: 25px;
+    background-image: url('../images/首页.png');
+    background-position: -293px -756px;
+}
+
+/* 搜索页图标 */
+.icon-fangdajing {
+    /* 放大镜 */
+    position: absolute;
+    left: 20px;
+    width: 24px;
+    height: 25px;
+    background-image: url('../images/组合\ 7.png');
+    background-position: -36px -77px;
+    background-repeat: no-repeat;
+}
+
+.icon-maikefeng {
+    /* 麦克风 */
+    position: absolute;
+    right: 21px;
+    width: 21px;
+    height: 25px;
+    background-image: url('../images/组合\ 7.png');
+    background-position: -324px -77px;
+    background-repeat: no-repeat;
+}
+
+/* 消息页图标 */
+.icon-fangdajing1 {
+    /* 放大镜 */
+    position: absolute;
+    left: 20px;
+    width: 23px;
+    height: 20px;
+    background-image: url('../images/组合\ 8.png');
+    background-position: -38px -82px;
+    background-repeat: no-repeat;
+}
+.message-icon0{
+    width: 54px;
+    height: 52px;
+    background-image: url('../images/组合\ 8.png');
+    background-position: -19px -164px;
+}
+.message-icon1{
+    width: 54px;
+    height: 52px;
+    background-image: url('../images/组合\ 8.png');
+    background-position: -19px -251px;
+}
+.message-icon2{
+    width: 54px;
+    height: 52px;
+    background-image: url('../images/组合\ 8.png');
+    background-position: -19px -337px;
+}

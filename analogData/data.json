@@ -1,0 +1,64 @@
+{
+    "message": "success",
+    "data": [
+        {
+            "id": 1,
+            "title": "数据中心",
+            "iconType": "dataCenter",
+            "children": [
+                {
+                    "id": 11,
+                    "title": "概览",
+                    "children": []
+                },
+                {
+                    "id": 12,
+                    "title": "商品列表",
+                    "children": []
+                },
+                {
+                    "id": 13,
+                    "title": "商品监控",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "订单中心",
+            "iconType": "orderList",
+            "children": [
+                {
+                    "id": 21,
+                    "title": "订单列表",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "收藏夹",
+            "iconType": "collectList",
+            "children": [
+                {
+                    "id": 31,
+                    "title": "收藏列表",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "设置",
+            "iconType": "setting",
+            "children": []
+        },
+        {
+            "id": 5,
+            "title": "帮助",
+            "iconType": "help",
+            "children": []
+        }
+    ],
+    "code": 0
+}

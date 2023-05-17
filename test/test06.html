@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>t6</title>
+    <style>
+        .container {
+            width: 500px;
+        }
+
+        .show {
+            width: 300px;
+            /* height: 300px; */
+            border: 1px solid #000;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="inp" class="inp">
+        <div class="show"></div>
+    </div>
+    <script>
+        const inp = document.getElementById('inp');
+        const show = document.getElementsByClassName('show')[0];
+        console.log(show)
+        // show.innerHTML= 1
+        let arr = ["华为手机", "apple手机", "手表", "手电筒", "小米手机", "oppo手机", "平板电脑", "三星手机", "手机支架", "手套"];
+
+        let str = '';
+
+        inp.onkeyup = function () {
+            str = '';
+            show.style.display = 'block';
+            arr.forEach(item => {
+                console.log(inp.value)
+                let res = item.indexOf(inp.value);
+                if (res != -1) {
+                    str += '<p>' + item + '</p>';
+                }
+            });
+            if (!inp.value || !str) {
+                show.innerHTML = '<p>暂无结果</p>'
+            } else {
+                show.innerHTML = str;
+                console.log(1)
+            }
+            console.log(show)
+        }
+
+        // const indexList = [];
+        // const arr2 = ['a', 'b', 'a', 'c', 'a', 'd']
+        // const r1 = 'a'
+        // let index = arr2.indexOf(r1);
+        // while (index !== -1) {
+        //     indexList.push(index);
+        //     arr2.indexOf(r1, index + 1);
+        // }
+        // console.log(indexList);
+
+        let indexList = [];
+        let arr2 = ['a', 'ab', 'ab', 'c', 'a', 'd'];
+        let element = 'a';
+        let index = arr2.indexOf(element);
+        while (index !== -1) {
+            indexList.push(index);
+            index = arr2.indexOf(element, index + 1);
+        }
+        console.log(indexList);
+    // [0, 2, 4]
+
+    </script>
+</body>
+
+</html>

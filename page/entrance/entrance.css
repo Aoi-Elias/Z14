@@ -1,0 +1,112 @@
+/* img{
+    width: 100%;
+    height: 177.86667vw;
+} */
+body{
+    min-width: 300px;
+}
+.entrance-layout{
+    padding: 60px 62px;
+    
+    width: 100vw;
+    height: 215.856777vw;
+    background-image: url('../../assets/images/image 1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border-radius: 36px; */
+}
+.entrance{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 48px 48px;
+    grid-template-areas: 
+    'text1 text2 text3 text4'
+    'signup signup signup signup'
+    'signin signin signin signin';
+    row-gap: 20px;
+    /* column-gap: 10px; */
+    width: 100%;
+    height: 185.1662vw;
+    
+    
+}
+.entra-desc{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid #000; */
+
+    /* 垂直水平居中 */
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+span{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.para1{
+    /* background-color: green; */
+    font-size: 18px;
+    width: 20px;
+    height: 255px;
+    grid-area: text1;
+}
+.para2{
+    /* background-color: blue; */
+    font-size: 30px;
+    width: 36px;
+    height: 376px;
+    grid-area: text2;
+    /* padding-bottom: 10px; */
+}
+
+.para2 strong{
+    /* height: 100%; */
+    /* border-bottom: 3px solid #fff; */
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.para2 i{
+    width: 10px;
+    height: 5px;
+    background-color: #fff;
+}
+
+.para3{
+    /* background-color: orange; */
+    font-size: 14px;
+    width: 16px;
+    height: 102px;
+    grid-area: text3;
+}
+.para4{
+    /* background-color: skyblue; */
+    font-size: 18px;
+    width: 21px;
+    height: 256px;
+    grid-area: text4;
+}
+.entra-btn{
+    width: 68.2864vw;
+    height: 12.2762vw;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.signup{
+    background-color: #fff;
+    color: #FFAD63;
+    grid-area: signup;
+    /* margin-bottom: 20px; */
+}
+.signin{
+    background-color: #FFAD63;
+    color: #fff;
+    grid-area: signin;
+}
+

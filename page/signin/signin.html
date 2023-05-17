@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <title>登录账号</title>
+    <link rel="stylesheet" href="../../assets/styles/reset.css">
+    <link rel="stylesheet" href="../../assets/styles/base.css">
+    <link rel="stylesheet" href="./signin.css">
+</head>
+
+<body>
+    <div class="signin-layout">
+        <div class="signin">
+            <h2>登录账号</h2>
+            <form action="#" method="post">
+                <div class="account grid-center">
+                    <i class="personal-icon"></i>
+                    <input id="acc-input" class="acc-input" type="text" value="凤凰花开">
+                    <span class="warning nameWarning">输入的姓名不合法</span>
+                    <span class="warning signinWarning">账号或密码错误</span>
+                </div>
+                <div class="password  grid-center">
+                    <i class="password-icon"></i>
+                    <input id="acc-password" type="password" class="acc-password" value="password">
+                    <span class="warning passwordWarning">输入的密码不合法</span>
+                </div>
+
+                <div class="signin-now grid-center">
+                    <div class="signinBtn">
+                        <div class="pointer">
+                            <a href=""><span>忘记密码?</span></a>
+                            <a href="">
+                                <span>使用验证码登录<i class="arrow"></i></span>
+                            </a>
+                        </div>
+                        <!-- ../index/index.html -->
+                        <a id="signin-btn" href="../index/index.html" class="signin-btn grid-center">立即登录</a>
+                        
+                    </div>
+                </div>
+            </form>
+
+            <div class="shortcut grid-center">
+                <div class="division">
+                    <i class="separator"></i>
+                    <span>快捷登录方式</span>
+                    <i class="separator"></i>
+                </div>
+                <div class="shortcut-signin">
+                    <i class="qq-icon"></i>
+                    <i class="weixin-icon"></i>
+                    <i class="weibo-icon"></i>
+                </div>
+            </div>
+
+            <div class="protocol">
+                <input type="checkbox" class="checkbox">
+                <span>本人已同意<a href="">《用户服务协议》</a>和<a href="">《隐私政策》</a></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./signin.js"></script>
+</body>
+
+</html>

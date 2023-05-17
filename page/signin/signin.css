@@ -1,0 +1,154 @@
+.signin-layout {
+    padding: 60px 30px;
+}
+
+.signin {
+    min-width: 200px;
+    height: 100vh;
+    /* border: 1px solid #000; */
+
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr auto;
+    grid-template-columns: 100%;
+    row-gap: 30px;
+}
+
+/* 标题 */
+.signin h2 {
+    display: flex;
+    align-items: end;
+
+    font-size: 28px;
+}
+
+/* 输入账号 */
+.account {
+    position: relative;
+    /* margin-left: 8px; */
+    justify-content: center;
+    width:81.8414vw;
+    height: 12.7877vw;
+    /* border: 1px solid #000; */
+    border-radius: 24px;
+    background-color: rgba(255, 172, 99, 0.302);
+}
+
+.acc-input {
+    position: absolute;
+    left: 60px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.warning{
+    color: red;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    font-size: 12px;
+    /* warning 默认隐藏 */
+    display: none;
+}
+
+/* 输入密码 */
+.password {
+    position: relative;
+    /* justify-items: start; */
+    width: 81.8414vw;
+    height: 12.7877vw;
+    /* border: 1px solid #000; */
+    border-radius: 24px;
+    background-color: rgba(255, 172, 99, 0.302);
+}
+
+.acc-password {
+    position: absolute;
+    left: 60px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+/* 立即登录 */
+form{
+    display: grid;
+    grid-template-rows: 50px 50px 1fr;
+    grid-template-columns: 100%;
+    row-gap: 30px;
+}
+
+.signin-btn {
+    position: relative;
+    width: 81.8414vw;
+    height: 14.3223vw;
+    background-color: rgb(255, 173, 99);
+    border-radius: 24px;
+    box-shadow: 0 10px 10px rgba(255, 173, 99, 0.5);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* .pointer {
+    justify-content: space-between;
+} */
+
+.pointer span {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.pointer a:first-child{
+    color: #f00;
+}
+.pointer a:last-child{
+    float: right;
+}
+
+
+/* 快捷登录方式 */
+.shortcut{
+    align-content: start;
+}
+
+.shortcut .division{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shortcut .division span{
+    margin: 0 10px;
+    font-size: 12px;
+}
+.shortcut .separator{
+    flex-grow: 1;
+    display: block;
+    width: 110px;
+    height: 0px;
+    border: 1px solid #000;
+}
+
+.shortcut-signin {
+    position: relative;
+
+}
+
+/* 用户协议 */
+.protocol{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 100%;
+}
+.protocol .checkbox{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+.protocol span{
+    font-size: 12px;
+    width: 240px;
+    height: 16px;
+}
+.protocol a{
+    font-weight: bold;
+    color: #000;
+}
